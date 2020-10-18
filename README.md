@@ -1,1 +1,1 @@
-# demonstrate how to use Streamlit and Imageai
+# Streamlit_Imageai_Detection
