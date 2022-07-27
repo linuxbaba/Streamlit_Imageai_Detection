@@ -7,7 +7,7 @@ def load_image(img):
     im = Image.open(img)
     return im
 
-@st.cache
+@st.cache(allow_output_mutation=True)
 def load_models(model_file):
     prediction = ImagePrediction()
     prediction.setModelTypeAsResNet()
